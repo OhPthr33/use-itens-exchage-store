@@ -1,0 +1,407 @@
+.card{
+    background-color: #58BC82;
+}
+form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58BC82;
+    background-color: #58BC82;
+    border-radius: 30px;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    padding: 5%;
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  form input[type="email"],
+  form input[type="password"]{
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+  }
+  
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+  }
+  
+  form .submit {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  
+  form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  form .file {
+    padding: 1rem 0.75rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  
+  form .file:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  form .tipo {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  
+  form .categoria {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  form .condicao {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  form .descricao {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  form .descricao:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  form .titulo {
+    padding: 1rem 0.75rem;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  form .titulo:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  form .regiao {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+
+  form .text {
+    padding: 1rem 0.75rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+
+
+  .span {
+    text-decoration: none;
+    color: var(--bg-dark);
+  }
+  
+  .span a {
+    color: var(--clr);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 70%;
+  left: 50px;
+  top: 20px;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::-moz-placeholder {
+  color: transparent;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:-moz-placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #28b010, #28b010);
+     border-image: linear-gradient(to right, #28b010, #28b010);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #28b010;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+
+/* demo */
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color: #6b471a;
+}/*# sourceMappingURL=Style.css.map */
+
+#login{
+  position: relative;
+  bottom: 20px;
+    width: 400px;
+    border-radius: 50px;
+    background: #433e3e;
+    height: 520px;
+}
+#login2{
+    width: 400px;
+    border-radius: 50px;
+    background: #433e3e;
+    height: 370px;
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    left: 60px;
+    top: 30px;
+  }
+  
+  button:hover {
+    background-color: #28b010;
+    box-shadow: 0px 15px 20px #4eaf3d;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  .login1{
+    opacity: 0.8;
+    color: #fff;
+    position: relative;
+    left: 46px;
+    top: 25px;
+    color: #e9e9e9;
+  }
+  .login2{
+    border-bottom: 4px solid #28b010;
+    width: 200px;
+    position:relative;
+    left: 32px;
+    bottom: 5px;
+  }
+  .login3{
+    border-bottom: 2px solid #28b010;
+    width: 180px;
+    position:relative;
+    left: 41px;
+    bottom: px;
+  } 
+  .login4{
+    border-bottom: 4px solid #28b010;
+    width: 135px;
+    position:relative;
+    left: 32px;
+    bottom: 5px;
+  }
+  .login5{
+    border-bottom: 2px solid #28b010;
+    width: 115px;
+    position:relative;
+    left: 41px;
+    bottom: px;
+  }
+  .card-footer{
+    position: relative;
+    left: 17px;
+  }
+  
+  .Roda{
+    font-size: small;
+    position: relative;
+    left: 35px;
+    top: 35px;
+  }
+
+  .home{
+    font-size: small;
+    position: relative;
+    left: 155px;
+    top: 15.5px;
+  }
+
+  .home2{
+    font-size: small;
+    position: relative;
+    left: 200px;
+    top: 35.5px;
+  }
+  .img{
+    position: absolute;
+    left: 10000px;
+    top: 10px;
+    
+  }

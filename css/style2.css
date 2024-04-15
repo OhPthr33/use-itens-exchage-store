@@ -1,0 +1,108 @@
+body{
+    font-size: medium;
+    background-color: #6b471a;
+    margin: 1em;
+}
+
+.p{
+  margin: 1em;
+  background-color: lightgreen;
+}
+.container {
+  border-style: solid;
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+  /* Add your background pattern here */
+  --size: 80px; /* control the size */
+  --color: #fefae0;
+  position: relative;
+  left: 120px;
+  --l: var(--color) 20%, #0000 0;
+  --bg: 35%, #606c38 0 45%, var(--color) 0;
+  background-color: #6b471a;
+  background-size: var(--size) var(--size);
+  border-radius: 10px;
+  box-shadow: 20px 20px 60px #5b3c16,
+  -20px -20px 60px #7b521e;
+  margin: 1em;
+
+}
+
+.p_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.column{  
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  left: 100px;
+}
+.column a {
+  background-color: lightgreen;
+  display: flex;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.produto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 250px; /* Ajuste a largura conforme necessário */
+  transition: transform 0.2s;
+}
+
+.produto a {
+  text-decoration: none;
+  color: #333;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.produto p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.produto .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}    
+
+@media screen and (max-width: 768px) {
+  .produto {
+      flex-basis: 48%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .produto {
+      flex-basis: 100%;
+  }
+}
